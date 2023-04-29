@@ -36,7 +36,5 @@ app.post('/contact', function(req, res) {
   res.redirect('/contact');
 });
 
-// Start the server
-app.listen(3000, function() {
-  console.log('Server listening on port 3000');
-});
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server running on port ${port}`));
