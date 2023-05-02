@@ -163,6 +163,21 @@ nav ul li a:hover:before{
 	
 }
 
+.hero-button2 a{
+	padding-top: 2em;
+	margin-left: 0em;
+	margin-right: auto;
+	background-color:White;
+	font-size:3.5rem;
+	text-decoration: none;
+	color: Black;
+	border-radius: 3em;
+	padding: 0.5em 2em;
+	
+	
+}
+
+
 .rectangle{
 	width: 120%;
 	margin-left: -30%;
