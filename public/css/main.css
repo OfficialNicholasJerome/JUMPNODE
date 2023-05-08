@@ -304,6 +304,7 @@ nav ul li a:hover:before{
 	
 }
 
+<<<<<<< HEAD
 .hero-button a::after {
     content: "  ▷";
     position: absolute;
@@ -312,6 +313,27 @@ nav ul li a:hover:before{
     transform: translateY(-50%);
     opacity: 0;
     transition: all 0.7s;
+=======
+.hero-button2 a{
+	padding-top: 2em;
+	margin-left: 0em;
+	margin-right: auto;
+	background-color:White;
+	font-size:3.5rem;
+	text-decoration: none;
+	color: Black;
+	border-radius: 3em;
+	padding: 0.5em 2em;
+	
+	
+}
+
+
+.rectangle{
+	width: 120%;
+	margin-left: -30%;
+	z-index: 100;
+>>>>>>> b304e6e9013fe6150dc3c53028ac8e513436ee22
 }
 
 .hero-button a:hover{
@@ -457,6 +479,7 @@ p a{
 .input{
 	transition-delay: 600ms;
 }
+<<<<<<< HEAD
 
 .learn-more{
 	margin-right: 2em;
@@ -643,3 +666,5 @@ p a{
 
   
 }
+=======
+>>>>>>> b304e6e9013fe6150dc3c53028ac8e513436ee22
