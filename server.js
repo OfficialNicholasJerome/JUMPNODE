@@ -38,3 +38,7 @@ app.post('/contact', function(req, res) {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
+
+app.get('/services', function(req, res) {
+  res.sendFile(__dirname + '/public/services.html');
+});

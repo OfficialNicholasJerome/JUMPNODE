@@ -43,7 +43,12 @@ nav a{
 	font-size: 1.2rem;
 	position: relative;
 	font-family: "Poppins";
+	cursor: pointer;
 	
+}
+
+.logo{
+	cursor: pointer;
 }
 
 /* MAKING THE BUTTONS BRRR \/\/ */
@@ -73,28 +78,35 @@ nav ul li a:hover:before{
 
 
 .paragraph1{
-	background-color: rgba(114, 76, 36, .3);
-	padding-top: 0em;
-	padding-bottom: 1em;
-	padding-right: 1em;
-	padding-left: 1em;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
 	color:white;
 	max-width:80em;
 }
 
-@keyframes transition{
-	from{opacity: 0; filter: blur(5px); transform: translateX(-100%);}
-	to{opacity: 1; filter: blur(0px); transform: translateX(0);}
+.index-par1{
+	font-size: 2rem;
 }
 
+.title-options{
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+  	justify-content: center;
+  	gap: 3em;
 
-.paragraph2{
-	margin-left: auto;
-	margin-right: auto;
-	color:white;
-	max-width:80em;
+}
+
+.title-options-index{
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: left;
+  	justify-content: left;
+  	gap: 3em;
+
 }
 
 .hidden{
@@ -110,86 +122,231 @@ nav ul li a:hover:before{
 	transition: all 1s;
 }
 
-.onlytext{
-	background-color: rgba(114, 76, 36, .3);
-	padding-top: 0em;
-	padding-bottom: 1em;
-	padding-right: 1em;
-	padding-left: 1em;
+.options{
+	display: flex;
+	gap: 5em;
+	user-select: none;
 }
+
+
+
+.plm{
+	width: 7.2em;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.plm2{
+	width: 15em;
+	height: auto;
+	position: absolute;
+	top: -28px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.plm3{
+	width: 7.5em;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.plm4{
+	padding-left: 1em;
+	width: 9em;
+	height: auto;
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	color: white;
+	font-size: 3.5rem;
+}
+
+.option-1{
+	width: 25em;
+	height: 25em;
+	background-color: #182C35;
+	border-radius: 2em;
+	transition-delay: 0.2s;
+	position: relative;
+	display: grid;
+	place-items: center;
+	z-index: 3;
+	border: 1.5px solid #fff;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+
+}
+
+.option-2{
+	width: 25em;
+	height: 25em;
+	transition-delay: 0.4s;
+	background-color: #182C35;
+	border-radius: 2em;
+	position: relative;
+	display: grid;
+	place-items: center;
+	z-index: 2;
+	border: 1.5px solid #fff;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+
+}
+
+.option-3{
+	width: 25em;
+	height: 25em;
+	transition-delay: 0.5s;
+	background-color: #182C35;
+	border-radius: 2em;
+	position: relative;
+	display: grid;
+	place-items: center;
+	z-index: 1;
+	border: 1.5px solid #fff;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+}
+
+.option-4{
+	width: 25em;
+	height: 25em;
+	transition-delay: 0.7s;
+	position: relative;
+	display: grid;
+	place-items: center;
+	z-index: 0;
+}
+.serv-but1{
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	background-color:#374156;
+	border-radius: 0.5em;
+	padding: 0.3em 1em;
+	cursor: pointer;
+	border: none;
+
+}
+.serv-but2{
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	background-color:#374156;
+	border-radius: 0.5em;
+	padding: 0.3em 1em;
+	cursor: pointer;
+	border: none;
+	z-index: 0;
+
+}
+.serv-but3{
+	color: white;
+	font-size: 2rem;
+	margin: 0;
+	background-color:#374156;
+	border-radius: 0.5em;
+	padding: 0.3em 1em;
+	cursor: pointer;
+	border: none;
+	z-index: 0;
+
+}
+
+.serv-but1:hover{
+	background-color:#4c5975;
+	transition: all 0.5s;
+
+}
+.serv-but2:hover{
+	background-color:#4c5975;
+	transition: all 0.5s;
+
+}
+.serv-but3:hover{
+	background-color:#4c5975;
+	transition: all 0.5s;
+
+}
+
+
+
 
 .title1{
-	text-align: center;
+	margin-bottom: 2rem;
+	display: flex;
+  	justify-content: left;
+  	align-items: flex-start;
+  	height: 100%;
 	font-size:5.5rem;
 	text-decoration: underline;
 	margin-bottom:0;
 	margin-top:1em;
 	
-}
-.text1{
-	font-size:2rem;
-}
-
-.subtext1{
-	font-size:2rem;
-}
-
-.title2{
-	text-align: center;
-	font-size:5.5rem;
-	text-decoration: underline;
-	margin-bottom:0;
-	margin-top:1em;
-	
-}
-.text2{
-	font-size:2rem;
-}
-
-.subtext2{
-	font-size:2rem;
 }
 
 .hero-button a{
-	margin-left: 7em;
-	margin-right: auto;
-	background-color:#29293A;
+	margin-left: 0em;
+	background-color:#374156;
 	font-size:3rem;
 	text-decoration: none;
 	color: white;
 	border-radius: 3em;
-	padding: 0.7em 1.3em;
+	padding: 0.7em 1.4em;
+	cursor: pointer;
 	
 	
 }
 
-.hero-button2 a{
-	padding-top: 2em;
-	margin-left: 0em;
-	margin-right: auto;
-	background-color:White;
-	font-size:3.5rem;
-	text-decoration: none;
-	color: Black;
-	border-radius: 3em;
-	padding: 0.5em 2em;
-	
-	
+.hero-button a::after {
+    content: "  ▷";
+    position: absolute;
+    right: 1.4em;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.7s;
 }
 
-.rectangle{
-	width: 120%;
-	margin-left: -30%;
-	z-index: 100;
+.hero-button a:hover{
+	background-color:#4c5975;
+	transition: all 0.5s;
 }
+
+.hero-button a:hover::after {
+    right: 0.4em;
+    opacity: 1;
+}
+
+
 
 .THEWRAPPER{
 	background-image: url('../media/background.jpg');
-	background-repeat: no-repeat;
-	background-position: center top;
 	background-size: cover;
+   	background-attachment: fixed;
 	height: 100vh;
 	overflow-x: hidden;
+	position: relative;
+	
+
+
+}
+
+.THEWRAPPER::before{
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+ 	backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+ 	height: 170%;
 }
 
 *{
@@ -203,7 +360,7 @@ nav ul li a:hover:before{
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	height: 115vh;
+	height: 130vh;
 	overflow-x: hidden;
 }
 
@@ -223,12 +380,19 @@ nav ul li a:hover:before{
 .email-button{
 	color: white;
 	text-decoration: none;
-	background-color:#212189;
+	background-color:#804d00;
 	padding: .5em 2.5em;
 	border-radius: 0.6em;
 	font-size: 2rem;
 	font-family: "Poppins";		
 	margin-top: 1em;
+	cursor: pointer;
+	border: none;
+}
+
+.email-button:hover{
+	background-color:#995c00;
+	transition: all 0.5s;
 }
 .email{
 	width: 15em;
@@ -292,4 +456,190 @@ p a{
 
 .input{
 	transition-delay: 600ms;
+}
+
+.learn-more{
+	margin-right: 2em;
+}
+
+.paragraph-service{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	max-width:80em;
+
+}
+
+.title-service{
+	margin-bottom: 2rem;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100%;
+	font-size:5.5rem;
+	text-decoration: underline;
+	margin-bottom:0;
+	margin-top:1em;
+}
+
+/*#container-to-show {
+  display: none;
+  position: absolute;
+  top: -10%;
+  left: 80%;
+  width: 200px;
+  height: 200px;
+  background-color: #353445;
+  z-index: 99;
+}
+
+#container-to-show2 {
+  display: none;
+  position: absolute;
+  top: -10%;
+  left: 80%;
+  width: 200px;
+  height: 200px;
+  background-color:#353445;
+  z-index:99;
+}
+
+#container-to-show3 {
+  display: none;
+  position: absolute;
+  top: -10%;
+  left: 80%;
+  width: 200px;
+  height: 200px;
+  background-color: #353445;
+  z-index:99;
+}
+
+.ig-par{
+	color: white;
+	text-align: center;
+	font-size: 2rem;
+
+}*/
+
+.igtext{
+	color: white;
+	margin: 0;
+	font-size: 2.2rem;
+	text-align: center;
+	line-height: 1.7em;
+	font-weight: bold;
+	margin-top: 2em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .THEWRAPPER{
+  	background-image: url('../media/background.jpg');
+	background-size: cover;
+   	background-attachment: fixed;
+	height: 100vh;
+	max-width: 100vw;
+	overflow-x: hidden;
+	position: relative;
+	display: grid;
+  	justify-content: center;
+  	justify-items: start;
+
+  }
+
+  .wrapper{
+	max-width: 90vw;
+	margin: 0 auto;
+	perspective: 1px;
+  }
+
+  .title-options-index{
+  	text-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+  }
+
+  .title1{
+  	font-size: 3.9rem;
+  }
+
+  .hero-button{
+  	display: grid;
+  	gap: 2.5em;
+
+	}
+
+
+  .logo{
+  	transform: scale(0.5);
+  }
+  
+  header{
+  	font-size: 1px;
+  	margin: 0;
+  	display: flex;
+  	align-items: center;
+ 	gap: 20em;
+  	width:80vw;
+  }
+
+  nav{
+  	left: -5rem;
+  }
+
+
+  nav ul{
+  	gap: 16em;
+  	display: flex;	
+
+  }
+
+  nav a{
+  	font-size: 1rem;
+  }
+
+  .THEWRAPPER2{
+  	height: 120vh;
+  }
+
+  .about_us_title{
+  	font-size: 3.6rem;
+  }
+
+  .para1, .para2, .para3{
+  	font-size: 1.7rem;
+  }
+
+  .contact-us-title{
+  	font-size: 3.6rem;
+  }
+
+  .contact-us-text1{
+  	font-size: 1.8rem;
+  }
+
+  .email{
+  	width: 12em;
+  	height: 1.5em;
+  	font-size: 2.7rem;
+  }
+
+  .title-service{
+  	font-size: 3.4rem;
+  }
+
+  .options{
+  	display: grid;
+  }
+
+  .option-4{
+  	height: 2em;
+  }
+
+  .hero-button a{
+  	font-size: 2.5rem;
+  }
+
+  
 }
